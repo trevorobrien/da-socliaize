@@ -50,6 +50,16 @@ This starts a server on `http://localhost:3000` which:
   is concerned.
 - Watch for changes in TS/JS code (including codegen), and immediately rebuild.
 
+## Tests
+
+The tests use Jest & Puppeteer, and the test suite is located in `ui/src/index.test.ts`
+
+To run the tests: 
+
+```bash
+npm test
+```
+
 ## Deploying to Daml Hub
 
 To build everything from scratch:
